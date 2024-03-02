@@ -1,0 +1,20 @@
+Azure AKS Cluster Deployment
+
+This folder contains Terraform scripts to deploy an Azure Kubernetes Service (AKS) cluster.
+
+Deployment Steps:
+
+Clone the repository.
+Navigate to the "aks-cluster" directory.
+Modify variables in variables.tf as needed.
+Run terraform init to initialize the project.
+Execute terraform plan to review the deployment plan.
+Apply changes with terraform apply.
+Confirm the deployment by typing yes.
+Folder Structure:
+
+main.tf: Configurations for AKS cluster deployment.
+variables.tf: Definition of input variables.
+outputs.tf: Outputs to display after deployment.
+terraform.tfvars: Option to set default variable values.
+Ensure proper authentication to your Azure account using the Azure CLI or Service Principal before running Terraform commands.
